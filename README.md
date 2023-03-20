@@ -14,7 +14,8 @@ Se le ha pedido que se centre en uno de los productos de Bellabeat y analice los
 > Bellabeat: Un fabricante de alta tecnología que recopila datos sobre actividad, sueño y estrés para dotar a las mujeres de conocimientos sobre su propia salud y sus hábitos.
 
    
-
+## Data
+- [Fuente:](https://www.kaggle.com/arashnic)
 
 
 2. Una descripción de todas las fuentes de datos utilizadas
