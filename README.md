@@ -19,9 +19,12 @@ Se le ha pedido que se centre en uno de los productos de Bellabeat y analice los
    
 ## Data
 - Fuente: Data pública de [Kaggle](https://www.kaggle.com/arashnic)
-- El conjunto de datos fue publicado por Möbius en Kaggle.com con la licencia CC0: Public Domain Creative Common License, que renuncia a todos los derechos sobre la obra y permite copiar, modificar, distribuir y ejecutar el conjunto de datos sin pedir permiso. Möbius citó el conjunto de datos de Zendo: [Licencia](https://zenodo.org/record/53894#.ZBi8sOzMK3K)
+- El conjunto de datos fue publicado por Möbius en Kaggle.com con la licencia CC0: Public Domain Creative Common License, que renuncia a todos los derechos sobre la obra y permite copiar, modificar, distribuir y ejecutar el conjunto de datos sin pedir permiso. Möbius citó el conjunto de datos de Zendo:Furberg, Robert; Brinton, Julia; Keating, Michael ; Ortiz, Alexa [Licencia](https://zenodo.org/record/53894#.ZBi8sOzMK3K)
 - Esta base de datos fueron generados en una encuesta distribuida a través de Amazon Mechanical Turk entre el 04.12.2016-05.12.2016. 30 usuarios elegibles de Fitbit dieron su consentimiento para el envío de datos de rastreadores personales, incluidos los resultados minuto a minuto de la actividad física, la frecuencia cardíaca y la monitorización del sueño.
 - La base de datos contiene 18 archivos.csv
+
+### Organización de los datos
+Se descargaron dieciocho conjuntos de datos de FitBit Fitness Tracker Data. Los datos  se descargaron en formato .csv e incluían formatos largos y anchos. Las bases de datos incluían un recuento de usuarios de 33 participantes durante un periodo de tiempo de 31 días.
 
 2. Una descripción de todas las fuentes de datos utilizadas
 3. Documentación de cualquier limpieza o manipulación de los datos
