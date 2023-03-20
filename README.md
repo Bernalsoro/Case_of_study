@@ -3,8 +3,7 @@
 
 1. ¿Cuáles son algunas tendencias en el uso de dispositivos inteligentes?
 2. ¿Cómo podrían aplicarse estas tendencias a los clientes de Bellabeat?
-3. 3. ¿Cómo podrían influir estas tendencias en la estrategia de marketing de Bellabeat?
-
+3. ¿Cómo podrían influir estas tendencias en la estrategia de marketing de Bellabeat?
 
 1. Un resumen claro de la tarea empresarial
 
@@ -12,8 +11,8 @@
 
 Se le ha pedido que se centre en uno de los productos de Bellabeat y analice los datos de los dispositivos inteligentes para conocer cómo los utilizan los consumidores. La información que descubra ayudará a orientar la estrategia de marketing de la empresa. 
 
+> Bellabeat: Un fabricante de alta tecnología que recopila datos sobre actividad, sueño y estrés para dotar a las mujeres de conocimientos sobre su propia salud y sus hábitos.
 
-> Bellabeat: Un fabricante de alta tecnología de productos para la mujer
    
 
 
