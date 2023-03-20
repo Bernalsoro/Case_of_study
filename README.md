@@ -5,6 +5,9 @@
 2. ¿Cómo podrían aplicarse estas tendencias a los clientes de Bellabeat?
 3. ¿Cómo podrían influir estas tendencias en la estrategia de marketing de Bellabeat?
 
+## Introducción
+Caso de estudio de mi curso de Google Analytics. Supuesto práctico para poner aplicar lo aprendido en el curso.
+
 1. Un resumen claro de la tarea empresarial
 
 ## Tarea empresarial:
@@ -15,7 +18,7 @@ Se le ha pedido que se centre en uno de los productos de Bellabeat y analice los
 
    
 ## Data
-- [Fuente:](https://www.kaggle.com/arashnic)
+- Fuente: Data pública de [Kaggle:](https://www.kaggle.com/arashnic)
 
 
 2. Una descripción de todas las fuentes de datos utilizadas
