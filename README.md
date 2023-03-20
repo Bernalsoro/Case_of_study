@@ -13,7 +13,7 @@ Tarea empresarial:
 Se le ha pedido que se centre en uno de los productos de Bellabeat y analice los datos de los dispositivos inteligentes para conocer cómo los utilizan los consumidores. La información que descubra ayudará a orientar la estrategia de marketing de la empresa. 
 
 
-<Bellabeat: Un fabricante de alta tecnología de productosproductos para la mujer
+> Bellabeat: Un fabricante de alta tecnología de productos para la mujer
    
 
 
