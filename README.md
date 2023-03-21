@@ -63,7 +63,7 @@ Weight_log_info_merged:
 8. Para calcular el IMC realizamos un proceso similar a los anteriores pero finalizando con una /100 para obtener decimales.
 9. Eliminamos la columna "Fat" porque solo tiene dos filas con información. No nos aporta nada en el analisis.
 
-[Doc] (https://docs.google.com/spreadsheets/d/1w-dmdM5tiXAt6Jq-CHu_ymobib3WQwBMTIt06UCdWcs/edit?usp=sharing)
+[Doc](https://docs.google.com/spreadsheets/d/1w-dmdM5tiXAt6Jq-CHu_ymobib3WQwBMTIt06UCdWcs/edit?usp=sharing)
 
 sleep_day_merged:
 
@@ -72,7 +72,7 @@ sleep_day_merged:
 3. Ordenados por fecha para comprobar que aportan datos del rango supuesto.
 4. Crear una nueva columna para separar la hora de la fecha con la función convertir texto en columna.
 
-[Doc] (https://docs.google.com/spreadsheets/d/1YVixw0KGUk9Bhp07sh62YlOAgdGaErySShuXxLkl0QE/edit?usp=sharing)
+[Doc](https://docs.google.com/spreadsheets/d/1YVixw0KGUk9Bhp07sh62YlOAgdGaErySShuXxLkl0QE/edit?usp=sharing)
 
 
 daily_activity_merged:
@@ -80,16 +80,42 @@ daily_activity_merged:
 1. Ordenar la base de datos por la columna del ID.
 2. Usar la función de eliminar duplicados. (No hay duplicados encontrados)
 3. Ordenados por fecha para comprobar que aportan datos del rango supuesto.
-4. Eliminar la columna Tracker distance por que tiene la misma info que totaldistance.
-5. Elmininamos la columna LoggedActivitiesDistances por falta de info en la columna. Pocas filas completas.
-6. Eliminamos la columna SedentaryActiveDistance por datos incorrectos y sin sentido.
-7. Adaptado el formato en kilometros para la siguientes columnas VeryActiveDistance, ModeratelyActiveDistance y	LightActiveDistance.
+4. Crear una nueva columna para separar la hora de la fecha con la función convertir texto en columna.
+5. Eliminar la columna Tracker distance por que tiene la misma info que totaldistance.
+6. Elmininamos la columna LoggedActivitiesDistances por falta de info en la columna. Pocas filas completas.
+7. Eliminamos la columna SedentaryActiveDistance por datos incorrectos y sin sentido.
+8. Adaptado el formato en kilometros para la siguientes columnas VeryActiveDistance, ModeratelyActiveDistance y	LightActiveDistance.
 
 [Doc](https://docs.google.com/spreadsheets/d/1It0i4vWwGqjK37p11CdaWbLDqMFPt53c3y5CFf07jJ4/edit?usp=sharing)
 
+hourly_steps_merged:
+
+1. Ordenar la base de datos por la columna del ID.
+2. Usar la función de eliminar duplicados. (No hay duplicados encontrados)
+3. Ordenados por fecha para comprobar que aportan datos del rango supuesto.
+4. Crear una nueva columna para separar la hora de la fecha con la función convertir texto en columna.
+
+[Doc](https://docs.google.com/spreadsheets/d/16Q4W-bv156F_FrUtitflACY8NORWa0ZoYp-xh-GhGtA/edit?usp=sharing)
+
+hourly_caloriers_merged
+
+1. Ordenar la base de datos por la columna del ID.
+2. Usar la función de eliminar duplicados. (No hay duplicados encontrados)
+3. Ordenados por fecha para comprobar que aportan datos del rango supuesto.
+4. Crear una nueva columna para separar la hora de la fecha con la función convertir texto en columna.
+
+[Doc](https://docs.google.com/spreadsheets/d/1QYdGoyIUP4wgcX4TqDzuoPd3EnjPtZxW50ZnqOV7evw/edit?usp=sharing)
+
+AverageIntensity:
+
+1. Ordenar la base de datos por la columna del ID.
+2. Usar la función de eliminar duplicados. (No hay duplicados encontrados)
+3. Ordenados por fecha para comprobar que aportan datos del rango supuesto.
+4. Crear una nueva columna para separar la hora de la fecha con la función convertir texto en columna.
+5. Cambiar de formato columnas de tiempo y formatear correctamente la columna de intensidad.
 
 
-
+[Doc](https://docs.google.com/spreadsheets/d/1UM1kbPFeT6q5_903Kkuu4PfYj1uN_nvYTWkdGgUHc8o/edit?usp=sharing)
 
 
 
