@@ -69,6 +69,10 @@ sleep_day_merged:
 
 1. Ordenar la base de datos por la columna del ID.
 2. Usar función de elminar duplicados (3 filas eliminadas)
+3. Ordenados por fecha para comprobar que aportan datos del rango supuesto.
+4. Crear una nueva columna para separar la hora de la fecha con la función convertir texto en columna.
+
+[Doc] (https://docs.google.com/spreadsheets/d/1YVixw0KGUk9Bhp07sh62YlOAgdGaErySShuXxLkl0QE/edit?usp=sharing)
 
 
 daily_activity_merged:
@@ -77,7 +81,12 @@ daily_activity_merged:
 2. Usar la función de eliminar duplicados. (No hay duplicados encontrados)
 3. Ordenados por fecha para comprobar que aportan datos del rango supuesto.
 4. Eliminar la columna Tracker distance por que tiene la misma info que totaldistance.
-5. 
+5. Elmininamos la columna LoggedActivitiesDistances por falta de info en la columna. Pocas filas completas.
+6. Eliminamos la columna SedentaryActiveDistance por datos incorrectos y sin sentido.
+7. Adaptado el formato en kilometros para la siguientes columnas VeryActiveDistance, ModeratelyActiveDistance y	LightActiveDistance.
+
+[Doc](https://docs.google.com/spreadsheets/d/1It0i4vWwGqjK37p11CdaWbLDqMFPt53c3y5CFf07jJ4/edit?usp=sharing)
+
 
 
 
