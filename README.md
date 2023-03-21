@@ -32,3 +32,44 @@ Se descargaron dieciocho conjuntos de datos de FitBit Fitness Tracker Data. Los 
 5. Visualizaciones de apoyo y conclusiones clave
 6. Recomendaciones de contenido de alto nivel basadas en su análisis
 
+## Procesamiento de datos
+
+He seleccionado los siguientes archivos.csv para mi análisis basándome en los criterios de peso de la base de datos e información más relevante.
+
+- Daily_Activity_Merged
+- Hourly_Steps_Merged
+- Weight_Log_info_Merged
+- Hourly_Calories_Merged
+- Hourly_Intensity_Merged
+- Daily_Sleep_Merged
+- Heart_Rate_Merged
+
+### Limpieza de las bases de datos
+
+Comencé la limpieza de las bases de datos usando la aplicación Google Sheets. 
+
+1. Ordenar y filtrar la columna de ID para saber cuantos valores únicos tiene.
+2. Usar la opción de eliminar duplicados de google Sheets para detectar líneas de datos repetidas erróneamente.
+
+Weight_log_info_merged:
+
+1. Ordenar la base de datos por la columna del ID.
+2. Usar la función de eliminar duplicados. (No hay duplicados encontrados)
+3. Crear una nueva columna para separar la hora de la fecha con la función convertir texto en columna.
+4. Para corregir los datos de KG introducidos en formatos inconsistentes que podría dar error realizamos la siguiente consecución de funciones.
+5. Convertimos los valores a texto con la función =TEXTO, extraemos solo los 4 primeros valores para redondear todos los datos al mismo formato (62,45KG) y arreglamos manualmente los diversos errores de formato consecuentes.
+6. Para la columna de peso en Pounds convertimos los datos trabajados de Kg para convertirlos en Pounds =CONVERTIR(E3;"kg";"lbm"). Seguido de la función =IZQUIERDA(E3;5) para sacar solo los dígitos que queremos para redondear el peso.
+7. Para calcular el IMC realizamos un proceso similar a los anteriores pero finalizando con una /100 para obtener decimales.
+8. Eliminamos la columna "Fat" porque solo tiene dos filas con información. No nos aporta nada en el analisis.
+
+sleep_day_merged:
+
+1. Ordenar la base de datos por la columna del ID.
+2. Usar función de elminar duplicados (3 filas eliminadas)
+
+
+
+
+
+
+RECALCAR AL FINAL NOMBRES ESTANDARIZADOS Y NOMBRES DE COLUMMNAS
