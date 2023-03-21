@@ -55,12 +55,15 @@ Weight_log_info_merged:
 
 1. Ordenar la base de datos por la columna del ID.
 2. Usar la función de eliminar duplicados. (No hay duplicados encontrados)
-3. Crear una nueva columna para separar la hora de la fecha con la función convertir texto en columna.
-4. Para corregir los datos de KG introducidos en formatos inconsistentes que podría dar error realizamos la siguiente consecución de funciones.
-5. Convertimos los valores a texto con la función =TEXTO, extraemos solo los 4 primeros valores para redondear todos los datos al mismo formato (62,45KG) y arreglamos manualmente los diversos errores de formato consecuentes.
-6. Para la columna de peso en Pounds convertimos los datos trabajados de Kg para convertirlos en Pounds =CONVERTIR(E3;"kg";"lbm"). Seguido de la función =IZQUIERDA(E3;5) para sacar solo los dígitos que queremos para redondear el peso.
-7. Para calcular el IMC realizamos un proceso similar a los anteriores pero finalizando con una /100 para obtener decimales.
-8. Eliminamos la columna "Fat" porque solo tiene dos filas con información. No nos aporta nada en el analisis.
+3. Ordenados por fecha para comprobar que aportan datos del rango supuesto.
+4. Crear una nueva columna para separar la hora de la fecha con la función convertir texto en columna.
+5. Para corregir los datos de KG introducidos en formatos inconsistentes que podría dar error realizamos la siguiente consecución de funciones.
+6. Convertimos los valores a texto con la función =TEXTO, extraemos solo los 4 primeros valores para redondear todos los datos al mismo formato (62,45KG) y arreglamos manualmente los diversos errores de formato consecuentes.
+7. Para la columna de peso en Pounds convertimos los datos trabajados de Kg para convertirlos en Pounds =CONVERTIR(E3;"kg";"lbm"). Seguido de la función =IZQUIERDA(E3;5) para sacar solo los dígitos que queremos para redondear el peso.
+8. Para calcular el IMC realizamos un proceso similar a los anteriores pero finalizando con una /100 para obtener decimales.
+9. Eliminamos la columna "Fat" porque solo tiene dos filas con información. No nos aporta nada en el analisis.
+
+[Documento](https://docs.google.com/spreadsheets/d/1w-dmdM5tiXAt6Jq-CHu_ymobib3WQwBMTIt06UCdWcs/edit?usp=sharing)
 
 sleep_day_merged:
 
