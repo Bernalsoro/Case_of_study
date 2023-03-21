@@ -63,7 +63,7 @@ Weight_log_info_merged:
 8. Para calcular el IMC realizamos un proceso similar a los anteriores pero finalizando con una /100 para obtener decimales.
 9. Eliminamos la columna "Fat" porque solo tiene dos filas con información. No nos aporta nada en el analisis.
 
-[Documento](https://docs.google.com/spreadsheets/d/1w-dmdM5tiXAt6Jq-CHu_ymobib3WQwBMTIt06UCdWcs/edit?usp=sharing)
+[Doc] (https://docs.google.com/spreadsheets/d/1w-dmdM5tiXAt6Jq-CHu_ymobib3WQwBMTIt06UCdWcs/edit?usp=sharing)
 
 sleep_day_merged:
 
