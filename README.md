@@ -71,6 +71,15 @@ sleep_day_merged:
 2. Usar función de elminar duplicados (3 filas eliminadas)
 
 
+daily_activity_merged:
+
+1. Ordenar la base de datos por la columna del ID.
+2. Usar la función de eliminar duplicados. (No hay duplicados encontrados)
+3. Ordenados por fecha para comprobar que aportan datos del rango supuesto.
+4. Eliminar la columna Tracker distance por que tiene la misma info que totaldistance.
+5. 
+
+
 
 
 
