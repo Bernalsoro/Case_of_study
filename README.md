@@ -167,7 +167,8 @@ Soluciones:[Doc](https://docs.google.com/spreadsheets/d/1Od85SSWRcW4AML-0yNnlcNM
 
 
 Visualización de conclusiones.
-
+	![Visualización por tipo de actividad](https://user-images.githubusercontent.com/128240695/226921154-f0ab8b94-3f93-4cfb-a2ec-39ddb8c29663.png)
+![Recuento de Tipo de Actividad](https://user-images.githubusercontent.com/128240695/226921154-f0ab8b94-3f93-4cfb-a2ec-39ddb8c29663.png)
 
 
 
