@@ -144,9 +144,10 @@ La mayoría de tablas contienen 33 IDs únicos como se comentaba al inicio del p
 - Weight_log_merged solo tiene 8 IDs únicos y no nos es suficiente para sacar información por lo que decidimos descartar esta tabla.
 
 
+Basandonos en la recomendación de pasos diarios realizada por la universidad del Estado de Arizona, EEUU. Segmentaremos a nuestros usuarios para sacar conclusiones
+
 [Doc](https://pubmed.ncbi.nlm.nih.gov/14715035/)
 
-Para un analisis más especifico comprobaremos la media de pasos de cada uno de los 33 usuarios únicos para llegar a conclusiones.
 
 Lo haremos con el siguiente código:
 
@@ -167,8 +168,19 @@ Soluciones:[Doc](https://docs.google.com/spreadsheets/d/1Od85SSWRcW4AML-0yNnlcNM
 
 
 Visualización de conclusiones.
-	![Visualización por tipo de actividad](https://user-images.githubusercontent.com/128240695/226921154-f0ab8b94-3f93-4cfb-a2ec-39ddb8c29663.png)
+
+Como podemos observar en el siguiente gráfico los datos nos muestran que no existe ninguna tendencia marcada a llevar un estilo de vida entre nuestros usuarios si no que se ve un reparto equivalente.
+
 ![Recuento de Tipo de Actividad](https://user-images.githubusercontent.com/128240695/226921154-f0ab8b94-3f93-4cfb-a2ec-39ddb8c29663.png)
 
+Otro estudio reciente realizando por Harvard Medical School afirma que las tasas de mortalidad disminuyeron progresivamente antes de nivelarse aproximadamente a los 7.500 pasos/día.
+
+Por lo que consideramos que ese es el mínimo recomendable.
+
+[Doc](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709?guestAccessKey=afffe229-3940-4dd1-94e6-56cdd109c457&amp;utm_source=jps&amp;utm_medium=email&amp;utm_campaign=author_alert-jamanetwork&amp;utm_content=author-author_engagement&amp;utm_term=1m)
+
+Podemos observar que hasta un 51,5% de nuestros usuarios no llega a cumplir esos 7500 pasos diarios que recomienda Harvard
+
+![Recuento Usuarios que cumplen la recomendación Harvard](https://user-images.githubusercontent.com/128240695/226929366-0e45012f-06a9-4571-8c55-533117124523.png)
 
 
