@@ -122,8 +122,25 @@ Hemos realizado una estandarización de las columnas tanto de los nombres como d
 
 ## Fase de análisis y representación gráfica.
 
-Para comenzar el análisis vamos a comprobar la relevancia estadística que tienen estas bases de datos comprobando cuantos usuarios únicos contiene cada tabla.
+Para comenzar el análisis vamos a comprobar la relevancia estadística que tienen estas bases de datos comprobando cuantos usuarios únicos contiene cada tabla con el siguiente código:
 
 `SELECT COUNT(DISTINCT Id) AS Total_Id
-FROM decisive-studio-380411.Bellabeat_case.Actividad_diaria `
+FROM decisive-studio-380411.Bellabeat_case.daily_activity_merged `
+
+Realizaremos la misma busqueda con cada uno de los 6 archivos seleccionados adaptando el apartado FROM a cada tabla.
+
+Resultados:
+
+Daily_activity_merged: 33
+Hourly_calories_merged: 33
+Hourly_intensities_merged: 33
+hourly_steps_merged: 33
+sleep_day_merged: 24
+weight_log_merged: 8
+
+La mayoría de tablas contienen 33 IDs únicos como se comentaba al inicio del proyecto pero hay dos que contienen menos de lo supuesto.
+Sleep_day_merged tiene solo 25 IDs únicos pero vamos a usar esta información para análisis de momento.
+Weight_log_merged solo tiene 8 IDs únicos y no nos es suficiente para sacar información por lo que decidimos descartar esta tabla.
+
+
 
