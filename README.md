@@ -156,6 +156,11 @@ WHERE  Id =1503960366`
 
 Cambiaremos el número del Id para saber el promedio de cada usuario único.
 
+Nos ayudaremos del siguiente codigo para saber los ID únicos de la tabla.
+
+`SELECT DISTINCT ID
+FROM decisive-studio-380411.Bellabeat_case.daily_activity_merged` 
+
 Soluciones:
 
 
