@@ -183,3 +183,17 @@ Podemos observar que hasta un **51,5%** de nuestros usuarios no llega a cumplir 
 
 ![Recuento Usuarios que cumplen la recomendación Harvard](https://user-images.githubusercontent.com/128240695/226929366-0e45012f-06a9-4571-8c55-533117124523.png)
 
+Pensamos que sería una buena idea obtener la información de que dia de la semana es cada fecha. Explico el proceso realizado en Big Query para obtener esta información:
+
+1. Creamos una columna nueva en formato String en la que almacenaremos esta información en formato texto:
+
+
+`Alter Table decisive-studio-380411.Bellabeat_case.daily_activity_merged
+Add column Week_day String`
+
+2. Para completar esta columna recien creada con los dias de la semana correspondiente a cada fila utilizaremos el siguiente codigo:
+
+`UPDATE decisive-studio-380411.Bellabeat_case.daily_activity_merged
+SET Week_day = FORMAT_DATE('%A', Activity_date)
+WHERE Activity_date IS NOT NULL`
+
