@@ -120,3 +120,10 @@ AverageIntensity:
 
 Hemos realizado una estandarización de las columnas tanto de los nombres como del orden para poder realizar un mejor análisis en la plataforma Big Query.
 
+## Fase de análisis y representación gráfica.
+
+Para comenzar el análisis vamos a comprobar la relevancia estadística que tienen estas bases de datos comprobando cuantos usuarios únicos contiene cada tabla.
+
+`SELECT COUNT(DISTINCT Id) AS Total_Id
+FROM `decisive-studio-380411.Bellabeat_case.Actividad_diaria` `
+
