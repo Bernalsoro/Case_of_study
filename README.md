@@ -242,5 +242,25 @@ Add Column Minutes_at_bed INTEGER`
 SET Minutes_at_bed = TotalTimeInBed - TotalMinutesAsleep
 WHERE TotalTimeInBed IS NOT NULL`
 
+3. Junto al analisis de la columna creada de dias de la semana y la función AVERAGE buscamos encontrar tendencias en los resultados con el siguiente codigo
+
+`SELECT AVG(Minutes_at_bed) 
+FROM decisive-studio-380411.Bellabeat_case.sleep_day_merged
+WHERE Week_day = "Sunday"`
+
+Igualmente sustituyendo este mismo código por cada dia de la semana y promedio general. Los resultados son los siguientes[Doc](https://docs.google.com/spreadsheets/d/1lbkMeb2SbFv39dUHy14dRMVVhlEBBdh2ta1xG3pknW0/edit?usp=sharing)
+
+Como podemos observar en el siguiente gráfico se produce una subida de este tiempo en la cama para los fines de semana y sobretodo los Domingos.
+
+![Promedio de minutos que tardan en dormirse cada dia de la semana](https://user-images.githubusercontent.com/128240695/226977785-3b8d7a1e-ee04-4560-bb16-7cc061321237.png)
+
+
+#### Propuesta
+
+Proponemos enviar notificaciónes al dispositivo recordando la importancia de un buen descanso e informando al propio usuario de sus habitos recurrentes insanos.
+
+
+
+
 
 
