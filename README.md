@@ -119,4 +119,5 @@ AverageIntensity:
 
 
 
-RECALCAR AL FINAL NOMBRES ESTANDARIZADOS Y NOMBRES DE COLUMMNAS
+Hemos realizado una estandarización de las columnas tanto de los nombres como del orden para poder realizar un mejor análisis en la plataforma Big Query.
+
