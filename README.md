@@ -131,16 +131,32 @@ Realizaremos la misma busqueda con cada uno de los 6 archivos seleccionados adap
 
 Resultados:
 
-Daily_activity_merged: 33
-Hourly_calories_merged: 33
-Hourly_intensities_merged: 33
-hourly_steps_merged: 33
-sleep_day_merged: 24
-weight_log_merged: 8
+- Daily_activity_merged: 33
+- Hourly_calories_merged: 33
+- Hourly_intensities_merged: 33
+- hourly_steps_merged: 33
+- sleep_day_merged: 24
+- weight_log_merged: 8
 
 La mayoría de tablas contienen 33 IDs únicos como se comentaba al inicio del proyecto pero hay dos que contienen menos de lo supuesto.
-Sleep_day_merged tiene solo 25 IDs únicos pero vamos a usar esta información para análisis de momento.
-Weight_log_merged solo tiene 8 IDs únicos y no nos es suficiente para sacar información por lo que decidimos descartar esta tabla.
+
+- Sleep_day_merged tiene solo 25 IDs únicos pero vamos a usar esta información para análisis de momento.
+- Weight_log_merged solo tiene 8 IDs únicos y no nos es suficiente para sacar información por lo que decidimos descartar esta tabla.
+
+
+[Doc](https://pubmed.ncbi.nlm.nih.gov/14715035/)
+
+Para un analisis más especifico comprobaremos la media de pasos de cada uno de los 33 usuarios únicos para llegar a conclusiones.
+
+Lo haremos con el siguiente código:
+
+`SELECT AVG(TotalSteps)
+FROM decisive-studio-380411.Bellabeat_case.daily_activity_merged
+WHERE  Id =1503960366`
+
+Cambiaremos el número del Id para saber el promedio de cada usuario único.
+
+Soluciones:
 
 
 
