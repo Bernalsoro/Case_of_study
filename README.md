@@ -161,7 +161,13 @@ Nos ayudaremos del siguiente codigo para saber los ID únicos de la tabla.
 `SELECT DISTINCT ID
 FROM decisive-studio-380411.Bellabeat_case.daily_activity_merged` 
 
-Soluciones:
+Nos ayudamos del formato condicional y de la funcion de google sheets  contar.si para hacer un recuento y segmentación de estos datos.
+
+Soluciones:[Doc](https://docs.google.com/spreadsheets/d/1Od85SSWRcW4AML-0yNnlcNMJGiWnf0Q-IvRKoqXjbNM/edit?usp=sharing)
+
+
+Visualización de conclusiones.
+
 
 
 
