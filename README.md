@@ -215,6 +215,32 @@ El promedio de pasos diarios llega a la recomendación media de 7500 o se acerca
 Propongo enviar una notificación un domingo al mes avisando a nuestros usuarios de que ese dia suele ser el más inactivo para la gente.
 Sin ser invasivos pero buscando ayudar a nuestro cliente a perseguir el objetivo por el cual compro nuestro producto, tener una mejor salud.
 
+### Analisis horas de sueño
+Comenzando un analisis más en profundidad sobre los parametros sobre el sueño que existen en nuestra bases de datos decidimos crear también una columna para saber los dias de la semana de esta de manera similar a la previamente realizada.
+
+1. Comenzamos creando una columna en formato texto para almacenar esta información con el siguiente código:
+
+´Alter Table decisive-studio-380411.Bellabeat_case.sleep_day_merged
+Add column Week_day String´
+
+2. Incorporamos la información del dia de la semana con el siguiente código:
+
+`UPDATE decisive-studio-380411.Bellabeat_case.sleep_day_merged
+SET Week_day = FORMAT_DATE('%A', Activity_date)
+WHERE Activity_date IS NOT NULL`
+
+A partir de las columnas "TotalTimeAtBed" y "TotalTimeAsleep". Mediante una resta entre estas dos columnas buscamos obtener los minutos que le cuesta dormirse al usuario. Usaremos el siguiente código para obtener el calculo e implementar esta información en la tabla.
+
+1. Creamos una tabla en formato INTEGER para obtener esta información en número.
+
+`Alter Table decisive-studio-380411.Bellabeat_case.sleep_day_merged
+Add Column Minutes_at_bed INTEGER`
+
+2. Con el siguiente código obtenemos esta operación actualizada en la base de datos.
+
+`UPDATE decisive-studio-380411.Bellabeat_case.sleep_day_merged
+SET Minutes_at_bed = TotalTimeInBed - TotalMinutesAsleep
+WHERE TotalTimeInBed IS NOT NULL`
 
 
 
