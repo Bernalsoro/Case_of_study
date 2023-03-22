@@ -125,5 +125,5 @@ Hemos realizado una estandarización de las columnas tanto de los nombres como d
 Para comenzar el análisis vamos a comprobar la relevancia estadística que tienen estas bases de datos comprobando cuantos usuarios únicos contiene cada tabla.
 
 `SELECT COUNT(DISTINCT Id) AS Total_Id
-FROM `decisive-studio-380411.Bellabeat_case.Actividad_diaria` `
+FROM decisive-studio-380411.Bellabeat_case.Actividad_diaria `
 
