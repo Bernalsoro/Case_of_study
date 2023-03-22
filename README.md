@@ -167,7 +167,7 @@ Nos ayudamos del **formato condicional** y de **la funcion de google sheets  con
 Soluciones:[Doc](https://docs.google.com/spreadsheets/d/1Od85SSWRcW4AML-0yNnlcNMJGiWnf0Q-IvRKoqXjbNM/edit?usp=sharing)
 
 
-### Visualización de conclusiones.
+### Análisis pasos diarios.
 
 Como podemos observar en el siguiente gráfico los datos nos muestran que no existe ninguna tendencia marcada a llevar un estilo de vida entre nuestros usuarios si no que se ve un reparto equivalente.
 
@@ -183,6 +183,7 @@ Podemos observar que hasta un **51,5%** de nuestros usuarios no llega a cumplir 
 
 ![Recuento Usuarios que cumplen la recomendación Harvard](https://user-images.githubusercontent.com/128240695/226929366-0e45012f-06a9-4571-8c55-533117124523.png)
 
+### Análisis día de la semana
 Pensamos que sería una buena idea obtener la información de que dia de la semana es cada fecha. Explico el proceso realizado en Big Query para obtener esta información:
 
 1. Creamos una columna nueva en formato String en la que almacenaremos esta información en formato texto:
@@ -196,4 +197,24 @@ Add column Week_day String`
 `UPDATE decisive-studio-380411.Bellabeat_case.daily_activity_merged
 SET Week_day = FORMAT_DATE('%A', Activity_date)
 WHERE Activity_date IS NOT NULL`
+
+3. A partir de esta nueva columna realizamos buscaremos el promedio de pasos por dia de la semana con el siguiente código:
+
+`SELECT AVG(TotalSteps) 
+FROMdecisive-studio-380411.Bellabeat_case.daily_activity_merged
+WHERE Week_day = "Monday"`
+
+Sustituiremos "Monday" por los distintos dias de la semana para obtener todos los resultados. Se muestran en el siguiente [Doc](https://docs.google.com/spreadsheets/d/1KgOptSRCnpcnQJr4K4YyJ1kQO7JL5C2CE69bXhGdi1w/edit?usp=sharing)
+
+Observamos una tendencia en los datos. 
+El promedio de pasos diarios llega a la recomendación media de 7500 o se acerca mucho todos los días de la semana menos el domingo.
+
+![Promedio de pasos por dia de la semana](https://user-images.githubusercontent.com/128240695/226968354-f912577c-9efd-480c-be1d-b2af9b641f39.png)
+
+#### Propuesta:
+Propongo enviar una notificación un domingo al mes avisando a nuestros usuarios de que ese dia suele ser el más inactivo para la gente.
+Sin ser invasivos pero buscando ayudar a nuestro cliente a perseguir el objetivo por el cual compro nuestro producto, tener una mejor salud.
+
+
+
 
