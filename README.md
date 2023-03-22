@@ -43,14 +43,14 @@ He seleccionado los siguientes archivos.csv para mi análisis basándome en los 
 - Hourly_Intensity_Merged
 - Daily_Sleep_Merged
 
-### Limpieza de las bases de datos
+## Limpieza de las bases de datos
 
 Comencé la limpieza de las bases de datos usando la aplicación Google Sheets. 
 
 1. Ordenar y filtrar la columna de ID para saber cuantos valores únicos tiene.
 2. Usar la opción de eliminar duplicados de google Sheets para detectar líneas de datos repetidas erróneamente.
 
-Weight_log_info_merged:
+### Weight_log_info_merged:
 
 1. Ordenar la base de datos por la columna del ID.
 2. Usar la función de eliminar duplicados. (No hay duplicados encontrados)
@@ -64,7 +64,7 @@ Weight_log_info_merged:
 
 [Doc](https://docs.google.com/spreadsheets/d/1w-dmdM5tiXAt6Jq-CHu_ymobib3WQwBMTIt06UCdWcs/edit?usp=sharing)
 
-sleep_day_merged:
+### sleep_day_merged:
 
 1. Ordenar la base de datos por la columna del ID.
 2. Usar función de elminar duplicados (3 filas eliminadas)
@@ -74,7 +74,7 @@ sleep_day_merged:
 [Doc](https://docs.google.com/spreadsheets/d/1YVixw0KGUk9Bhp07sh62YlOAgdGaErySShuXxLkl0QE/edit?usp=sharing)
 
 
-daily_activity_merged:
+### daily_activity_merged:
 
 1. Ordenar la base de datos por la columna del ID.
 2. Usar la función de eliminar duplicados. (No hay duplicados encontrados)
@@ -87,7 +87,7 @@ daily_activity_merged:
 
 [Doc](https://docs.google.com/spreadsheets/d/1It0i4vWwGqjK37p11CdaWbLDqMFPt53c3y5CFf07jJ4/edit?usp=sharing)
 
-hourly_steps_merged:
+### hourly_steps_merged:
 
 1. Ordenar la base de datos por la columna del ID.
 2. Usar la función de eliminar duplicados. (No hay duplicados encontrados)
@@ -96,7 +96,7 @@ hourly_steps_merged:
 
 [Doc](https://docs.google.com/spreadsheets/d/16Q4W-bv156F_FrUtitflACY8NORWa0ZoYp-xh-GhGtA/edit?usp=sharing)
 
-hourly_caloriers_merged
+### hourly_caloriers_merged
 
 1. Ordenar la base de datos por la columna del ID.
 2. Usar la función de eliminar duplicados. (No hay duplicados encontrados)
@@ -105,7 +105,7 @@ hourly_caloriers_merged
 
 [Doc](https://docs.google.com/spreadsheets/d/1QYdGoyIUP4wgcX4TqDzuoPd3EnjPtZxW50ZnqOV7evw/edit?usp=sharing)
 
-AverageIntensity:
+### AverageIntensity:
 
 1. Ordenar la base de datos por la columna del ID.
 2. Usar la función de eliminar duplicados. (No hay duplicados encontrados)
@@ -118,18 +118,18 @@ AverageIntensity:
 
 
 
-Hemos realizado una estandarización de las columnas tanto de los nombres como del orden para poder realizar un mejor análisis en la plataforma Big Query.
+Hemos realizado una estandarización de las columnas tanto de los nombres como del orden para poder realizar un mejor análisis en la plataforma **Big Query**.
 
 ## Fase de análisis y representación gráfica.
 
-Para comenzar el análisis vamos a comprobar la relevancia estadística que tienen estas bases de datos comprobando cuantos usuarios únicos contiene cada tabla con el siguiente código:
+Para comenzar el análisis vamos a comprobar como de útiles son estas bases de datos comprobando cuantos usuarios únicos contiene cada tabla con el siguiente código:
 
 `SELECT COUNT(DISTINCT Id) AS Total_Id
 FROM decisive-studio-380411.Bellabeat_case.daily_activity_merged `
 
 Realizaremos la misma busqueda con cada uno de los 6 archivos seleccionados adaptando el apartado FROM a cada tabla.
 
-Resultados:
+### Resultados:
 
 - Daily_activity_merged: 33
 - Hourly_calories_merged: 33
@@ -144,12 +144,12 @@ La mayoría de tablas contienen 33 IDs únicos como se comentaba al inicio del p
 - Weight_log_merged solo tiene 8 IDs únicos y no nos es suficiente para sacar información por lo que decidimos descartar esta tabla.
 
 
-Basandonos en la recomendación de pasos diarios realizada por la universidad del Estado de Arizona, EEUU. Segmentaremos a nuestros usuarios para sacar conclusiones
+Basandonos en la recomendación de pasos diarios realizada por **la universidad del Estado de Arizona, EEUU**. Segmentaremos a nuestros usuarios para sacar conclusiones
 
 [Doc](https://pubmed.ncbi.nlm.nih.gov/14715035/)
 
 
-Lo haremos con el siguiente código:
+Lo haremos con el siguiente **código**:
 
 `SELECT AVG(TotalSteps)
 FROM decisive-studio-380411.Bellabeat_case.daily_activity_merged
@@ -157,30 +157,29 @@ WHERE  Id =1503960366`
 
 Cambiaremos el número del Id para saber el promedio de cada usuario único.
 
-Nos ayudaremos del siguiente codigo para saber los ID únicos de la tabla.
+Nos ayudaremos del siguiente codigo para saber los **ID únicos** de la tabla.
 
 `SELECT DISTINCT ID
 FROM decisive-studio-380411.Bellabeat_case.daily_activity_merged` 
 
-Nos ayudamos del formato condicional y de la funcion de google sheets  contar.si para hacer un recuento y segmentación de estos datos.
+Nos ayudamos del **formato condicional** y de **la funcion de google sheets  contar.si** para hacer un recuento y segmentación de estos datos.
 
 Soluciones:[Doc](https://docs.google.com/spreadsheets/d/1Od85SSWRcW4AML-0yNnlcNMJGiWnf0Q-IvRKoqXjbNM/edit?usp=sharing)
 
 
-Visualización de conclusiones.
+### Visualización de conclusiones.
 
 Como podemos observar en el siguiente gráfico los datos nos muestran que no existe ninguna tendencia marcada a llevar un estilo de vida entre nuestros usuarios si no que se ve un reparto equivalente.
 
 ![Recuento de Tipo de Actividad](https://user-images.githubusercontent.com/128240695/226921154-f0ab8b94-3f93-4cfb-a2ec-39ddb8c29663.png)
 
-Otro estudio reciente realizando por Harvard Medical School afirma que las tasas de mortalidad disminuyeron progresivamente antes de nivelarse aproximadamente a los 7.500 pasos/día.
+Otro estudio reciente realizando por Harvard Medical School afirma que las **tasas de mortalidad disminuyeron progresivamente** antes de nivelarse aproximadamente a los 7.500 pasos/día.
 
 Por lo que consideramos que ese es el mínimo recomendable.
 
 [Doc](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709?guestAccessKey=afffe229-3940-4dd1-94e6-56cdd109c457&amp;utm_source=jps&amp;utm_medium=email&amp;utm_campaign=author_alert-jamanetwork&amp;utm_content=author-author_engagement&amp;utm_term=1m)
 
-Podemos observar que hasta un 51,5% de nuestros usuarios no llega a cumplir esos 7500 pasos diarios que recomienda Harvard
+Podemos observar que hasta un **51,5%** de nuestros usuarios no llega a cumplir esos **7500 pasos diarios** que recomienda Harvard
 
 ![Recuento Usuarios que cumplen la recomendación Harvard](https://user-images.githubusercontent.com/128240695/226929366-0e45012f-06a9-4571-8c55-533117124523.png)
 
-,
