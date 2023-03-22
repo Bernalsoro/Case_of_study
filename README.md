@@ -42,7 +42,6 @@ He seleccionado los siguientes archivos.csv para mi análisis basándome en los 
 - Hourly_Calories_Merged
 - Hourly_Intensity_Merged
 - Daily_Sleep_Merged
-- Heart_Rate_Merged
 
 ### Limpieza de las bases de datos
 
