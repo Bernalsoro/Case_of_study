@@ -183,4 +183,4 @@ Podemos observar que hasta un 51,5% de nuestros usuarios no llega a cumplir esos
 
 ![Recuento Usuarios que cumplen la recomendación Harvard](https://user-images.githubusercontent.com/128240695/226929366-0e45012f-06a9-4571-8c55-533117124523.png)
 
-
+,
