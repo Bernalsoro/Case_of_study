@@ -258,8 +258,25 @@ Como podemos observar en el siguiente gráfico se produce una subida de este tie
 
 Proponemos enviar notificaciónes al dispositivo recordando la importancia de un buen descanso e informando al propio usuario de sus habitos recurrentes insanos.
 
+## Analisis de correlaciones
 
+Nos parecio buena idea buscar correlaciones entre distintos valores para ver si encontrabamos indicios de alguna tendencia.
 
+1. Creamos una nueva tabla en excel para un analisis más facil e intuitivo que también mejorara la calidad de las visualizaciones de datos que nos aporta la plataforma.
+2. Ordenamos la base de datos por ID en orden ascendente de las siguientes tablas "Sleep_day_merged" y "Daily_Activity_Merged". Copiamos la columna de minutes_at_bed de "Sleep_day_merged" y las de TotalSteps y TotalCalories de la "Daily_Activity_Merged". 
+3. Creamos un nuevo Google Sheets llamado "Correlation_Table". Y adjuntamos estas Tablas.      [Google Sheets](https://docs.google.com/spreadsheets/d/1nUWP_TwJ9dMgoFm_-OmHyNHDttduPXTgRsQVBBTms0g/edit?usp=sharing)
+4. Obtuvimos las siguientes visualizaciones.
+
+![Correlacion entre calorias quemadas y minutos que les cuesta dormir](https://user-images.githubusercontent.com/128240695/227176771-79928458-abeb-4a7f-b1cf-c592d12939cb.png)
+
+![Correlación entre pasos totales y minutos que les cuesta dormir](https://user-images.githubusercontent.com/128240695/227176819-d7c65af8-2ff9-4450-ac4c-f2278fcbae94.png)
+
+## Conclusión:
+
+En ninguna de las dos visualizaciones vemos una tendencia marcada, ni causalidad.
+Se puede interpretar una correlación a que la mayoría de usuarios que realiza los pasos diarios y la quema de calorias recomendada consigue dormirse en tiempos razonables. Sin embargo, también hay muchos usuarios que sin cumplir estos requerimientos se duermen en tiempos similares.
+
+Con lo que entendemos que los minutos que le cuestan dormir a las personas es un tema multifactorial y que no existe una causalidad con la quema de calorias y los pasos dados.
 
 
 
