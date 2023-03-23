@@ -279,4 +279,17 @@ Se puede interpretar una correlación a que la mayoría de usuarios que realiza 
 Con lo que entendemos que los minutos que le cuestan dormir a las personas es un tema multifactorial y que no existe una causalidad con la quema de calorias y los pasos dados.
 
 
+## Análisis pasos totales por franja horaria:
+
+Decidimos investigar a que horas era más común que caminaran nuestros usuarios.
+
+Usamos la plataforma Google Sheets para realizar este analisis y visualización.
+
+1. Usamos la tabla "Hourly_steps"
+2. Filtrando por nuestra columna AM_PM podemos ayudar al sowftware a ofrecernos mejores visualizaciones y facilitar el analisis.
+3. Obtenemos las siguientes visualizaciones:
+![Media de pasos totales por franja horaria AM](https://user-images.githubusercontent.com/128240695/227185620-49b5cc03-d98f-49e7-b982-2093bcf09ec0.png)
+
+![Media de pasos totales por franja horaria PM](https://user-images.githubusercontent.com/128240695/227185646-f6a04f20-4360-4294-a1e9-5bcdd01a717e.png)
+
 
