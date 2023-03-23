@@ -141,7 +141,7 @@ La mayoría de tablas contienen 33 IDs únicos como se comentaba al inicio del p
 
 Basandonos en la recomendación de pasos diarios realizada por **la universidad del Estado de Arizona, EEUU**. Segmentaremos a nuestros usuarios para sacar conclusiones
 
-[Doc](https://pubmed.ncbi.nlm.nih.gov/14715035/)
+[Estudio](https://pubmed.ncbi.nlm.nih.gov/14715035/)
 
 
 Lo haremos con el siguiente **código**:
@@ -172,7 +172,7 @@ Otro estudio reciente realizando por Harvard Medical School afirma que las **tas
 
 Por lo que consideramos que ese es el mínimo recomendable.
 
-[Doc](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709?guestAccessKey=afffe229-3940-4dd1-94e6-56cdd109c457&amp;utm_source=jps&amp;utm_medium=email&amp;utm_campaign=author_alert-jamanetwork&amp;utm_content=author-author_engagement&amp;utm_term=1m)
+[Estudio](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709?guestAccessKey=afffe229-3940-4dd1-94e6-56cdd109c457&amp;utm_source=jps&amp;utm_medium=email&amp;utm_campaign=author_alert-jamanetwork&amp;utm_content=author-author_engagement&amp;utm_term=1m)
 
 Podemos observar que hasta un **51,5%** de nuestros usuarios no llega a cumplir esos **7500 pasos diarios** que recomienda Harvard
 
