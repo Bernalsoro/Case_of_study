@@ -1,51 +1,46 @@
-# Case_of_study
- Google Analitycs Coursera
+# Case of study
+## Google Analitycs Coursera
 
 1. ¿Cuáles son algunas tendencias en el uso de dispositivos inteligentes?
 2. ¿Cómo podrían aplicarse estas tendencias a los clientes de Bellabeat?
 3. ¿Cómo podrían influir estas tendencias en la estrategia de marketing de Bellabeat?
 
 ## Introducción
-Caso de estudio de mi curso de Google Analytics. Supuesto práctico para poner aplicar lo aprendido en el curso.
 
-1. Un resumen claro de la tarea empresarial
+Caso de estudio de mi curso de Google Analytics. Supuesto práctico para poner aplicar lo aprendido en el curso.
 
 ## Tarea empresarial:
 
-Se le ha pedido que se centre en uno de los productos de Bellabeat y analice los datos de los dispositivos inteligentes para conocer cómo los utilizan los consumidores. La información que descubra ayudará a orientar la estrategia de marketing de la empresa. 
+Se nos ha pedido que nos centremos en uno de los productos de Bellabeat y analice los datos de los dispositivos inteligentes para conocer cómo los utilizan los consumidores. La información que descubra ayudará a orientar la estrategia de marketing de la empresa. 
 
 > Bellabeat: Un fabricante de alta tecnología que recopila datos sobre actividad, sueño y estrés para dotar a las mujeres de conocimientos sobre su propia salud y sus hábitos.
 
    
 ## Data
-- Fuente: Data pública de [Kaggle](https://www.kaggle.com/arashnic)
-- El conjunto de datos fue publicado por Möbius en Kaggle.com con la licencia CC0: Public Domain Creative Common License, que renuncia a todos los derechos sobre la obra y permite copiar, modificar, distribuir y ejecutar el conjunto de datos sin pedir permiso. Möbius citó el conjunto de datos de Zendo:Furberg, Robert; Brinton, Julia; Keating, Michael ; Ortiz, Alexa [Licencia](https://zenodo.org/record/53894#.ZBi8sOzMK3K)
-- Esta base de datos fueron generados en una encuesta distribuida a través de Amazon Mechanical Turk entre el 04.12.2016-05.12.2016. 30 usuarios elegibles de Fitbit dieron su consentimiento para el envío de datos de rastreadores personales, incluidos los resultados minuto a minuto de la actividad física, la frecuencia cardíaca y la monitorización del sueño.
-- La base de datos contiene 18 archivos.csv
+
+**- Fuente:** Data pública de [Kaggle](https://www.kaggle.com/arashnic)
+-El conjunto de datos fue publicado por Möbius en Kaggle.com con la licencia CC0: Public Domain Creative Common License, que renuncia a todos los derechos sobre la obra y permite copiar, modificar, distribuir y ejecutar el conjunto de datos sin pedir permiso. Möbius citó el conjunto de datos de Zendo:Furberg, Robert; Brinton, Julia; Keating, Michael ; Ortiz, Alexa [Licencia](https://zenodo.org/record/53894#.ZBi8sOzMK3K)
+- Esta base de datos fueron generados en una encuesta distribuida a través de **Amazon Mechanical Turk** entre el **04.12.2016-05.12.2016.** 30 usuarios elegibles de Fitbit dieron su consentimiento para el envío de datos de rastreadores personales, incluidos los resultados minuto a minuto de la actividad física, la frecuencia cardíaca y la monitorización del sueño.
+- La base de datos contiene **18 archivos.csv**
 
 ### Organización de los datos
-Se descargaron dieciocho conjuntos de datos de FitBit Fitness Tracker Data. Los datos  se descargaron en formato .csv e incluían formatos largos y anchos. Las bases de datos incluían un recuento de usuarios de 33 participantes durante un periodo de tiempo de 31 días.
 
-2. Una descripción de todas las fuentes de datos utilizadas
-3. Documentación de cualquier limpieza o manipulación de los datos
-4. Un resumen de su análisis
-5. Visualizaciones de apoyo y conclusiones clave
-6. Recomendaciones de contenido de alto nivel basadas en su análisis
+Se descargaron dieciocho conjuntos de datos de FitBit Fitness Tracker Data. Los datos  se descargaron en formato .csv e incluían formatos largos y anchos. Las bases de datos incluían un recuento de usuarios de 33 participantes durante un periodo de tiempo de 31 días.
 
 ## Procesamiento de datos
 
 He seleccionado los siguientes archivos.csv para mi análisis basándome en los criterios de peso de la base de datos e información más relevante.
 
-- Daily_Activity_Merged
-- Hourly_Steps_Merged
-- Weight_Log_info_Merged
-- Hourly_Calories_Merged
-- Hourly_Intensity_Merged
-- Daily_Sleep_Merged
+**- Daily_Activity_Merged**
+**- Hourly_Steps_Merged**
+**- Weight_Log_info_Merged**
+**- Hourly_Calories_Merged**
+**- Hourly_Intensity_Merged**
+**- Daily_Sleep_Merged**
 
 ## Limpieza de las bases de datos
 
-Comencé la limpieza de las bases de datos usando la aplicación Google Sheets. 
+Comencé la limpieza de las bases de datos usando la aplicación **Google Sheets**. 
 
 1. Ordenar y filtrar la columna de ID para saber cuantos valores únicos tiene.
 2. Usar la opción de eliminar duplicados de google Sheets para detectar líneas de datos repetidas erróneamente.
@@ -140,7 +135,7 @@ Realizaremos la misma busqueda con cada uno de los 6 archivos seleccionados adap
 
 La mayoría de tablas contienen 33 IDs únicos como se comentaba al inicio del proyecto pero hay dos que contienen menos de lo supuesto.
 
-- Sleep_day_merged tiene solo 25 IDs únicos pero vamos a usar esta información para análisis de momento.
+- Sleep_day_merged tiene solo 24 IDs únicos pero vamos a usar esta información para análisis de momento.
 - Weight_log_merged solo tiene 8 IDs únicos y no nos es suficiente para sacar información por lo que decidimos descartar esta tabla.
 
 
