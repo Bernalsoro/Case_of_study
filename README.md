@@ -208,7 +208,7 @@ El promedio de pasos diarios llega a la recomendación media de 7500 o se acerca
 
 ![Promedio de pasos por dia de la semana](https://user-images.githubusercontent.com/128240695/226968354-f912577c-9efd-480c-be1d-b2af9b641f39.png)
 
-#### Propuesta:
+### Propuesta:
 Propongo enviar una notificación un domingo al mes avisando a nuestros usuarios de que ese dia suele ser el más inactivo para la gente.
 Sin ser invasivos pero buscando ayudar a nuestro cliente a perseguir el objetivo por el cual compro nuestro producto, tener una mejor salud.
 
