@@ -23,7 +23,7 @@ Se nos ha pedido que nos centremos en uno de los productos de Bellabeat y analic
 - Esta base de datos fueron generados en una encuesta distribuida a través de **Amazon Mechanical Turk** entre el **04.12.2016-05.12.2016.** 30 usuarios elegibles de Fitbit dieron su consentimiento para el envío de datos de rastreadores personales, incluidos los resultados minuto a minuto de la actividad física, la frecuencia cardíaca y la monitorización del sueño.
 - La base de datos contiene **18 archivos.csv**
 
-### Organización de los datos
+## Organización de los datos
 
 Se descargaron dieciocho conjuntos de datos de FitBit Fitness Tracker Data. Los datos  se descargaron en formato .csv e incluían formatos largos y anchos. Las bases de datos incluían un recuento de usuarios de 33 participantes durante un periodo de tiempo de 31 días.
 
