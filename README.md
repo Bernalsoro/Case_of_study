@@ -200,6 +200,7 @@ FROMdecisive-studio-380411.Bellabeat_case.daily_activity_merged
 WHERE Week_day = "Monday"`
 
 Sustituiremos "Monday" por los distintos dias de la semana para obtener todos los resultados.
+
 [Google Sheets](https://docs.google.com/spreadsheets/d/1KgOptSRCnpcnQJr4K4YyJ1kQO7JL5C2CE69bXhGdi1w/edit?usp=sharing)
 
 Observamos una tendencia en los datos. 
