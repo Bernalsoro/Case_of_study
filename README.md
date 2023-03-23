@@ -288,8 +288,26 @@ Usamos la plataforma Google Sheets para realizar este analisis y visualización.
 1. Usamos la tabla "Hourly_steps"
 2. Filtrando por nuestra columna AM_PM podemos ayudar al sowftware a ofrecernos mejores visualizaciones y facilitar el analisis.
 3. Obtenemos las siguientes visualizaciones:
+
 ![Media de pasos totales por franja horaria AM](https://user-images.githubusercontent.com/128240695/227185620-49b5cc03-d98f-49e7-b982-2093bcf09ec0.png)
 
 ![Media de pasos totales por franja horaria PM](https://user-images.githubusercontent.com/128240695/227185646-f6a04f20-4360-4294-a1e9-5bcdd01a717e.png)
+
+
+**Franja horaria AM:**
+
+Hora a la que más andan de media: 9:00 AM
+Hora a la que menos andan de media: 3:00 AM
+
+**Franja horaria PM** 
+
+Hora a la que más andan de media: 14:00 PM  **Es la hora a la que más andan de todo el día en general**
+Hora a la que menos andan de media: 20:00 PM
+
+**Conclusión y sugerencia**
+
+Estos datos muestran la medio de los horarios de caminar de nuestros clientes. Por lo tanto podríamos desarrollar campañas de marketing potenciando las horas a las que ya caminan nuestros clientes o intentando mejorar a las que no caminan.
+
+Ejemplo: Si interpretamos que tanto a las 9:00 AM como a las 14:00 PM caminan tanto por que estan llendo o volviendo del trabajo podemos buscar incentivar a la gente que busque completar los pasos necesarios del día en estos momentos. Haciendo campañas para incentivar no usar el ascensor o medidas similares.
 
 
