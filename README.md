@@ -31,12 +31,12 @@ Se descargaron dieciocho conjuntos de datos de FitBit Fitness Tracker Data. Los 
 
 He seleccionado los siguientes archivos.csv para mi análisis basándome en los criterios de peso de la base de datos e información más relevante.
 
-**- Daily_Activity_Merged**
-**- Hourly_Steps_Merged**
-**- Weight_Log_info_Merged**
-**- Hourly_Calories_Merged**
-**- Hourly_Intensity_Merged**
-**- Daily_Sleep_Merged**
+#### - Daily_Activity_Merged
+#### - Hourly_Steps_Merged
+#### - Weight_Log_info_Merged
+#### - Hourly_Calories_Merged
+#### - Hourly_Intensity_Merged
+#### - Daily_Sleep_Merged
 
 ## Limpieza de las bases de datos
 
@@ -57,7 +57,7 @@ Comencé la limpieza de las bases de datos usando la aplicación **Google Sheets
 8. Para calcular el IMC realizamos un proceso similar a los anteriores pero finalizando con una /100 para obtener decimales.
 9. Eliminamos la columna "Fat" porque solo tiene dos filas con información. No nos aporta nada en el analisis.
 
-[Doc](https://docs.google.com/spreadsheets/d/1w-dmdM5tiXAt6Jq-CHu_ymobib3WQwBMTIt06UCdWcs/edit?usp=sharing)
+[Google Sheets](https://docs.google.com/spreadsheets/d/1w-dmdM5tiXAt6Jq-CHu_ymobib3WQwBMTIt06UCdWcs/edit?usp=sharing)
 
 ### sleep_day_merged:
 
@@ -66,7 +66,7 @@ Comencé la limpieza de las bases de datos usando la aplicación **Google Sheets
 3. Ordenados por fecha para comprobar que aportan datos del rango supuesto.
 4. Crear una nueva columna para separar la hora de la fecha con la función convertir texto en columna.
 
-[Doc](https://docs.google.com/spreadsheets/d/1YVixw0KGUk9Bhp07sh62YlOAgdGaErySShuXxLkl0QE/edit?usp=sharing)
+[Google Sheets](https://docs.google.com/spreadsheets/d/1YVixw0KGUk9Bhp07sh62YlOAgdGaErySShuXxLkl0QE/edit?usp=sharing)
 
 
 ### daily_activity_merged:
@@ -80,7 +80,7 @@ Comencé la limpieza de las bases de datos usando la aplicación **Google Sheets
 7. Eliminamos la columna SedentaryActiveDistance por datos incorrectos y sin sentido.
 8. Adaptado el formato en kilometros para la siguientes columnas VeryActiveDistance, ModeratelyActiveDistance y	LightActiveDistance.
 
-[Doc](https://docs.google.com/spreadsheets/d/1It0i4vWwGqjK37p11CdaWbLDqMFPt53c3y5CFf07jJ4/edit?usp=sharing)
+[Google Sheets](https://docs.google.com/spreadsheets/d/1It0i4vWwGqjK37p11CdaWbLDqMFPt53c3y5CFf07jJ4/edit?usp=sharing)
 
 ### hourly_steps_merged:
 
@@ -89,7 +89,7 @@ Comencé la limpieza de las bases de datos usando la aplicación **Google Sheets
 3. Ordenados por fecha para comprobar que aportan datos del rango supuesto.
 4. Crear una nueva columna para separar la hora de la fecha con la función convertir texto en columna.
 
-[Doc](https://docs.google.com/spreadsheets/d/16Q4W-bv156F_FrUtitflACY8NORWa0ZoYp-xh-GhGtA/edit?usp=sharing)
+[Google Sheets](https://docs.google.com/spreadsheets/d/16Q4W-bv156F_FrUtitflACY8NORWa0ZoYp-xh-GhGtA/edit?usp=sharing)
 
 ### hourly_caloriers_merged
 
@@ -98,7 +98,7 @@ Comencé la limpieza de las bases de datos usando la aplicación **Google Sheets
 3. Ordenados por fecha para comprobar que aportan datos del rango supuesto.
 4. Crear una nueva columna para separar la hora de la fecha con la función convertir texto en columna.
 
-[Doc](https://docs.google.com/spreadsheets/d/1QYdGoyIUP4wgcX4TqDzuoPd3EnjPtZxW50ZnqOV7evw/edit?usp=sharing)
+[Google Sheets](https://docs.google.com/spreadsheets/d/1QYdGoyIUP4wgcX4TqDzuoPd3EnjPtZxW50ZnqOV7evw/edit?usp=sharing)
 
 ### AverageIntensity:
 
@@ -109,7 +109,7 @@ Comencé la limpieza de las bases de datos usando la aplicación **Google Sheets
 5. Cambiar de formato columnas de tiempo y formatear correctamente la columna de intensidad.
 
 
-[Doc](https://docs.google.com/spreadsheets/d/1UM1kbPFeT6q5_903Kkuu4PfYj1uN_nvYTWkdGgUHc8o/edit?usp=sharing)
+[Google Sheets](https://docs.google.com/spreadsheets/d/1UM1kbPFeT6q5_903Kkuu4PfYj1uN_nvYTWkdGgUHc8o/edit?usp=sharing)
 
 
 
@@ -159,7 +159,7 @@ FROM decisive-studio-380411.Bellabeat_case.daily_activity_merged`
 
 Nos ayudamos del **formato condicional** y de **la funcion de google sheets  contar.si** para hacer un recuento y segmentación de estos datos.
 
-Soluciones:[Doc](https://docs.google.com/spreadsheets/d/1Od85SSWRcW4AML-0yNnlcNMJGiWnf0Q-IvRKoqXjbNM/edit?usp=sharing)
+[Google Sheets](https://docs.google.com/spreadsheets/d/1Od85SSWRcW4AML-0yNnlcNMJGiWnf0Q-IvRKoqXjbNM/edit?usp=sharing)
 
 
 ### Análisis pasos diarios.
@@ -199,7 +199,8 @@ WHERE Activity_date IS NOT NULL`
 FROMdecisive-studio-380411.Bellabeat_case.daily_activity_merged
 WHERE Week_day = "Monday"`
 
-Sustituiremos "Monday" por los distintos dias de la semana para obtener todos los resultados. Se muestran en el siguiente [Doc](https://docs.google.com/spreadsheets/d/1KgOptSRCnpcnQJr4K4YyJ1kQO7JL5C2CE69bXhGdi1w/edit?usp=sharing)
+Sustituiremos "Monday" por los distintos dias de la semana para obtener todos los resultados.
+[Google Sheets](https://docs.google.com/spreadsheets/d/1KgOptSRCnpcnQJr4K4YyJ1kQO7JL5C2CE69bXhGdi1w/edit?usp=sharing)
 
 Observamos una tendencia en los datos. 
 El promedio de pasos diarios llega a la recomendación media de 7500 o se acerca mucho todos los días de la semana menos el domingo.
@@ -243,7 +244,9 @@ WHERE TotalTimeInBed IS NOT NULL`
 FROM decisive-studio-380411.Bellabeat_case.sleep_day_merged
 WHERE Week_day = "Sunday"`
 
-Igualmente sustituyendo este mismo código por cada dia de la semana y promedio general. Los resultados son los siguientes[Doc](https://docs.google.com/spreadsheets/d/1lbkMeb2SbFv39dUHy14dRMVVhlEBBdh2ta1xG3pknW0/edit?usp=sharing)
+Igualmente sustituyendo este mismo código por cada dia de la semana y promedio general. 
+
+[Google Sheets](https://docs.google.com/spreadsheets/d/1lbkMeb2SbFv39dUHy14dRMVVhlEBBdh2ta1xG3pknW0/edit?usp=sharing)
 
 Como podemos observar en el siguiente gráfico se produce una subida de este tiempo en la cama para los fines de semana y sobretodo los Domingos.
 
