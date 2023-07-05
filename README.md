@@ -1,4 +1,4 @@
-# Case of study
+# Case of study.
 ## Google Analitycs Coursera
 
 1. ¿Cuáles son algunas tendencias en el uso de dispositivos inteligentes?
