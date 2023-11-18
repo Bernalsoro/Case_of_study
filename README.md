@@ -254,16 +254,16 @@ Como podemos observar en el siguiente gráfico se produce una subida de este tie
 
 #### Propuesta
 
-Proponemos enviar notificaciónes al dispositivo recordando la importancia de un buen descanso e informando al propio usuario de sus habitos recurrentes insanos.
+Propongo enviar notificaciones al dispositivo recordando la importancia de un buen descanso e informando al usuario sobre sus hábitos recurrentes insalubres.
 
 ## Analisis de correlaciones
 
-Nos parecio buena idea buscar correlaciones entre distintos valores para ver si encontrabamos indicios de alguna tendencia.
+Me parecio buena idea buscar correlaciones entre distintos valores para ver si encontrabamos indicios de alguna tendencia.
 
-1. Creamos una nueva tabla en excel para un analisis más facil e intuitivo que también mejorara la calidad de las visualizaciones de datos que nos aporta la plataforma.
-2. Ordenamos la base de datos por ID en orden ascendente de las siguientes tablas "Sleep_day_merged" y "Daily_Activity_Merged". Copiamos la columna de minutes_at_bed de "Sleep_day_merged" y las de TotalSteps y TotalCalories de la "Daily_Activity_Merged". 
-3. Creamos un nuevo Google Sheets llamado "Correlation_Table". Y adjuntamos estas Tablas.      [Google Sheets](https://docs.google.com/spreadsheets/d/1nUWP_TwJ9dMgoFm_-OmHyNHDttduPXTgRsQVBBTms0g/edit?usp=sharing)
-4. Obtuvimos las siguientes visualizaciones.
+1. Creé una nueva tabla en excel para un analisis más fácil e intuitivo que también mejorará la calidad de las visualizaciones de datos que nos aporta la plataforma.
+2. Ordené la base de datos por ID en orden ascendente de las siguientes tablas "Sleep_day_merged" y "Daily_Activity_Merged". Copié la columna de "minutes_at_bed" de "Sleep_day_merged" y las de "TotalSteps" y "TotalCalories" de  "Daily_Activity_Merged". 
+3. Creé un nuevo Google Sheets llamado "Correlation_Table". Y adjuntamos estas Tablas.      [Google Sheets](https://docs.google.com/spreadsheets/d/1nUWP_TwJ9dMgoFm_-OmHyNHDttduPXTgRsQVBBTms0g/edit?usp=sharing)
+4. Obtuve las siguientes visualizaciones.
 
 ![Correlacion entre calorias quemadas y minutos que les cuesta dormir](https://user-images.githubusercontent.com/128240695/227176771-79928458-abeb-4a7f-b1cf-c592d12939cb.png)
 
@@ -271,21 +271,17 @@ Nos parecio buena idea buscar correlaciones entre distintos valores para ver si 
 
 ## Conclusión:
 
-En ninguna de las dos visualizaciones vemos una tendencia marcada, ni causalidad.
-Se puede interpretar una correlación a que la mayoría de usuarios que realiza los pasos diarios y la quema de calorias recomendada consigue dormirse en tiempos razonables. Sin embargo, también hay muchos usuarios que sin cumplir estos requerimientos se duermen en tiempos similares.
-
-Con lo que entendemos que los minutos que le cuestan dormir a las personas es un tema multifactorial y que no existe una causalidad con la quema de calorias y los pasos dados.
-
+En ninguna de las dos visualizaciones observé una tendencia marcada ni causalidad. Se puede interpretar una correlación, ya que la mayoría de usuarios que cumplen con los pasos diarios y la quema de calorías recomendada tienden a dormirse en tiempos razonables. Sin embargo, también hay muchos usuarios que, sin cumplir con estos requisitos, se duermen en tiempos similares. Entendí que los minutos que les cuesta dormir a las personas son un tema multifactorial y que no existe una relación causal clara con la quema de calorías y los pasos dados.
 
 ## Análisis pasos totales por franja horaria:
 
-Decidimos investigar a que horas era más común que caminaran nuestros usuarios.
+Decidí investigar a qué horas era más común que caminaran nuestros usuarios.
 
-Usamos la plataforma Google Sheets para realizar este analisis y visualización.
+Usé la plataforma Google Sheets para realizar este análisis y visualización.
 
-1. Usamos la tabla "Hourly_steps"
+1. Usé la tabla "Hourly_steps"
 2. Filtrando por nuestra columna AM_PM podemos ayudar al sowftware a ofrecernos mejores visualizaciones y facilitar el analisis.
-3. Obtenemos las siguientes visualizaciones:
+3. Obtuve las siguientes visualizaciones:
 
 ![Media de pasos totales por franja horaria AM](https://user-images.githubusercontent.com/128240695/227185620-49b5cc03-d98f-49e7-b982-2093bcf09ec0.png)
 
@@ -304,8 +300,6 @@ Hora a la que menos andan de media: 20:00 PM
 
 **Conclusión y sugerencia**
 
-Estos datos muestran la medio de los horarios de caminar de nuestros clientes. Por lo tanto podríamos desarrollar campañas de marketing potenciando las horas a las que ya caminan nuestros clientes o intentando mejorar a las que no caminan.
+Estos datos muestran la media de los horarios en que nuestros clientes camina. Por lo tanto, podríamos desarrollar campañas de marketing destacando las horas en las que ya caminan nuestros clientes o buscando mejorar aquellas en las que no lo hacen.
 
-Ejemplo: Si interpretamos que tanto a las 9:00 AM como a las 14:00 PM caminan tanto por que estan llendo o volviendo del trabajo podemos buscar incentivar a la gente que busque completar los pasos necesarios del día en estos momentos. Haciendo campañas para incentivar no usar el ascensor o medidas similares.
-
-
+Por ejemplo, si interpretamos que tanto a las 9:00 AM como a las 14:00 PM caminan porque están yendo o volviendo del trabajo, podríamos incentivar a las personas a completar los pasos necesarios del día en estos momentos. Podríamos llevar a cabo campañas para fomentar la no utilización del ascensor u otras medidas similares.
