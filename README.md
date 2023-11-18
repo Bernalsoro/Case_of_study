@@ -1,5 +1,5 @@
-# Case of study
-## Google Analitycs Coursera
+# Case of study -- Google Analitycs Coursera
+## Preguntas guía
 
 1. ¿Cuáles son algunas de las tendencias en el uso de dispositivos inteligentes?
 2. ¿Cómo podrían aplicarse estas tendencias a los clientes de Bellabeat?
@@ -11,7 +11,7 @@ Caso de estudio - Google Analytics / Coursera. Ejercicio práctico para aplicar 
 
 ## Tarea empresarial:
 
-Se me ha asignado la tarea de centrarme en uno de los productos de Bellabeat y realizar un análisis de los datos provenientes de algunos dispositivos inteligentes. El objetivo es comprender cómo los consumidores están utilizando estos dispositivos, y la información recopilada será fundamental para orientar la estrategia de marketing.
+Se me ha asignado la tarea de centrarme en uno de los productos de Bellabeat y realizar un análisis de los datos provenientes de algunos dispositivos inteligentes. El objetivo es comprender cómo los consumidores están utilizando estos dispositivos, y la información recopilada será fundamental para orientar la estrategia de marketing. Los dispositivos utilizados para el caso de estudio son pulseras inteligentes.
 
 > Bellabeat: Un fabricante de alta tecnología que recopila datos sobre actividad, sueño y estrés para dotar a las mujeres de conocimientos sobre su propia salud y sus hábitos.
 
